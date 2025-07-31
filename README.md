@@ -102,11 +102,22 @@ The project uses image datasets of apples and mixed fruits provided by the 2023 
 
 ```bash
 notebooks/
-├── 1_count_location.ipynb          # 图像处理与苹果定位
-├── 2_location_scatter_heatmap.ipynb # 热力图与坐标可视化
-├── 3_maturity_cnn.ipynb            # 成熟度分类模型（CNN）
-├── 4_mass_montecarlo.ipynb         # 重量估计（Monte Carlo 方法）
-├── 5_resnet50_fruit_classification.ipynb # 品质识别（ResNet50）
+├── 1_count_location.ipynb          # Apple Detection & Counting | 图像处理与苹果定位
+├── 2_location_scatter_heatmap.ipynb # Heatmap Visualization | 热力图与坐标可视化
+├── 3_maturity_cnn.ipynb            # Maturity Classification (CNN) | 成熟度分类模型
+├── 4_mass_montecarlo.ipynb         # Weight Estimation (Monte Carlo) | 重量估计
+├── 5_resnet50_fruit_classification.ipynb # Quality Classification (ResNet50) | 品质识别
+├── README_Q1.md                    # Q1 Documentation | Q1说明文档
+
+data/
+├── Attachment 1/                   # Apple orchard images (200 files)
+├── Attachment 2/                   # Labeled fruit dataset (20,705 files)
+└── Attachment 3/                   # Unlabeled fruit dataset (20,705 files)
+
+results/
+└── Q1_results/                     # Q1 processing outputs
+
+Previous Code/                      # Legacy implementation for reference
 
 
 ### Result
