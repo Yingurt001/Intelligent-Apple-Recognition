@@ -1,12 +1,12 @@
 <!-- Banner -->
 <div align="center">
-  <img src="Assets/Banner_1.jpg" width="100%" alt="Project Banner">
+  <img src="Assets/Banner_1.png" width="100%" alt="Project Banner">
 </div>
 
 <!-- Badges -->
 <div align="center">
-  <img src="https://img.shields.io/github/stars/你的用户名/你的项目名" alt="Stars">
-  <img src="https://img.shields.io/github/license/你的用户名/你的项目名" alt="License">
+  <img src="https://img.shields.io/github/stars/Yingurt001/Intelligent-Apple-Recognition" alt="Stars">
+  <img src="https://img.shields.io/github/license/Yingurt001/Intelligent-Apple-Recognition" alt="License">
   <img src="https://img.shields.io/badge/python-3.8+-blue" alt="Python Version">
 </div>
 
