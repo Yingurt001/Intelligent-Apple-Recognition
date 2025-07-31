@@ -112,6 +112,7 @@ results/
 
 Previous Code/                      # Legacy implementation for reference
 
+```
 
 ### Result
 ![3_detected](https://github.com/user-attachments/assets/df885f4d-6179-47b9-86fa-006c4b363ad8)
