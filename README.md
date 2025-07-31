@@ -10,15 +10,6 @@
   <img src="https://img.shields.io/badge/python-3.8+-blue" alt="Python Version">
 </div>
 
-<!-- Social Media -->
-<div align="center">
-  <a href="https://github.com/yourname">
-    <img src="github图标链接" width="3%">
-  </a>
-  <a href="https://space.bilibili.com/xxxxxx">
-    <img src="bilibili图标链接" width="3%">
-  </a>
-</div>
 
 ---
 
