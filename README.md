@@ -9,12 +9,15 @@
 
 
 <details>
-<summary>📦 安装方式</summary>
+<summary>📦 安装方式
+
+</summary>
 
 ```bash
 git clone https://github.com/yourname/apple-segmentation
 cd apple-segmentation
 pip install -r requirements.txt
+```
 
 ## 🎬 Demo 示例
 ![demo](assets/demo.gif)
