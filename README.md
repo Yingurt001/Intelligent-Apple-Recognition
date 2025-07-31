@@ -49,10 +49,8 @@ This project implements a complete apple recognition pipeline using Python, Open
 
 ---
 
-## 📦 Installation | 安装方式
 
-<details>
-<summary>点击展开安装说明</summary>
+## 📦 Installation | 安装方式
 
 ```bash
 git clone https://github.com/yourname/apple-segmentation
