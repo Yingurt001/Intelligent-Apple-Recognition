@@ -10,15 +10,6 @@
   <img src="https://img.shields.io/badge/python-3.8+-blue" alt="Python Version">
 </div>
 
-<!-- Social Media -->
-<div align="center">
-  <a href="https://github.com/yourname">
-    <img src="github图标链接" width="3%">
-  </a>
-  <a href="https://space.bilibili.com/xxxxxx">
-    <img src="bilibili图标链接" width="3%">
-  </a>
-</div>
 
 ---
 
@@ -53,10 +44,10 @@ This project implements a complete apple recognition pipeline using Python, Open
 ## 📦 Installation | 安装方式
 
 ```bash
-git clone https://github.com/yourname/apple-segmentation
-cd apple-segmentation
+git clone https://github.com/Yingurt001/Intelligent-Apple-Recognition.git
+cd Intelligent-Apple-Recognition
 pip install -r requirements.txt
-
+```
 ---
 ##  Dataset Description | 数据集说明
 
