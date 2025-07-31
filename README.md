@@ -158,7 +158,11 @@ Thanks goes to these wonderful people:
 ## Paper Reference | 背景论文
 
 Author: Ying Zhang, Tianhao Hua, Yuzhi Zheng
-GitHub: @Yingurt001
-Email: millionyogurt@gmail.com, 
+
+GitHub: @Yingurt001, @Alex-TtTT, @Lychee-1013z
+
+Email: millionyogurt@gmail.com,
+       lychee1013z@gmail.com
+       Alex.o.0@outlook.com
 
 欢迎 star / fork 本项目，也欢迎提出改进建议与合作 🙌
