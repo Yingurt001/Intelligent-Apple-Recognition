@@ -119,24 +119,25 @@ Previous Code/                      # Legacy implementation for reference
 
 ### Project Maintainers 
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/your-github">
-        <img src="https://avatars.githubusercontent.com/u/你的ID?v=4" width="100px;" alt=""/>
-        <br />
-        <sub><b>你的名字</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/friend-github">
-        <img src="https://avatars.githubusercontent.com/u/朋友ID?v=4" width="100px;" alt=""/>
-        <br />
-        <sub><b>朋友的名字</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/Yingurt001">
+  <img src="https://avatars.githubusercontent.com/u/214812635?v=4" width="100px;" alt=""/>
+  <br />
+  <sub><b>Ying Zhang</b></sub>
+</a>
+
+<a href="https://github.com/Alex-TtTT">
+  <img src="https://avatars.githubusercontent.com/u/223631305?v=4" width="100px;" alt=""/>
+  <br />
+  <sub><b>Ying Zhang</b></sub>
+</a>
+
+
+<a href="https://github.com/Lychee-1013z">
+  <img src="https://avatars.githubusercontent.com/u/221976648?v=4" width="100px;" alt=""/>
+  <br />
+  <sub><b>Ying Zhang</b></sub>
+</a>
+
 
 
 
