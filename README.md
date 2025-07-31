@@ -75,10 +75,15 @@ notebooks/
 ├── 5_resnet50_fruit_classification.ipynb # 品质识别（ResNet50）
 
 
+### Result
+![3_detected](https://github.com/user-attachments/assets/df885f4d-6179-47b9-86fa-006c4b363ad8)
+
+
+
 Paper Reference | 背景论文
 
-Author: Ying Zhang
+Author: Ying Zhang, Tianhao Hua, Yuzhi Zheng
 GitHub: @Yingurt001
-Email: millionyogurt@gmail.com
+Email: millionyogurt@gmail.com, 
 
 欢迎 star / fork 本项目，也欢迎提出改进建议与合作 🙌
