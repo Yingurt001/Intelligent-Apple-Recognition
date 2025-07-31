@@ -113,8 +113,16 @@ results/
 Previous Code/                      # Legacy implementation for reference
 
 ```
-## Result
-<img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/image_24.png" width="80%">
+<h3>Result</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/image_24.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/image_3.png" width="45%">
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/3_comparison.jpg" width="80%">
+</p>
 
 ### 👨‍💻 Project Maintainers
 Thanks goes to these wonderful people:
