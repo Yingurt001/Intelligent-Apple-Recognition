@@ -155,7 +155,7 @@ Thanks goes to these wonderful people:
 
 
 
-## Paper Reference | 背景论文
+## Contributions|致谢
 
 Author: Ying Zhang, Tianhao Hua, Yuzhi Zheng
 
