@@ -117,32 +117,40 @@ Previous Code/                      # Legacy implementation for reference
 ### Result
 ![3_detected](https://github.com/user-attachments/assets/df885f4d-6179-47b9-86fa-006c4b363ad8)
 
+<div align="center">
 
-### Project Maintainers 
+### 👨‍💻 Project Maintainers
 
-<a href="https://github.com/Yingurt001">
-  <img src="https://avatars.githubusercontent.com/u/214812635?v=4" width="100px;" alt=""/>
-  <br />
-  <sub><b>Ying Zhang</b></sub>
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Yingurt001">
+        <img src="https://avatars.githubusercontent.com/u/214812635?v=4" width="100px;" alt="Yingurt001"/>
+        <br />
+        <sub><b>Ying Zhang</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Alex-TtTT">
+        <img src="https://avatars.githubusercontent.com/u/223631305?v=4" width="100px;" alt="Alex-TtTT"/>
+        <br />
+        <sub><b>Alex Hua</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Lychee-1013z">
+        <img src="https://avatars.githubusercontent.com/u/221976648?v=4" width="100px;" alt="Lychee-1013z"/>
+        <br />
+        <sub><b>Yuzhi Zheng</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
-<a href="https://github.com/Alex-TtTT">
-  <img src="https://avatars.githubusercontent.com/u/223631305?v=4" width="100px;" alt=""/>
-  <br />
-  <sub><b>Ying Zhang</b></sub>
-</a>
+</div>
 
 
-<a href="https://github.com/Lychee-1013z">
-  <img src="https://avatars.githubusercontent.com/u/221976648?v=4" width="100px;" alt=""/>
-  <br />
-  <sub><b>Ying Zhang</b></sub>
-</a>
-
-
-
-
-Paper Reference | 背景论文
+## Paper Reference | 背景论文
 
 Author: Ying Zhang, Tianhao Hua, Yuzhi Zheng
 GitHub: @Yingurt001
