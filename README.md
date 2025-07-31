@@ -117,15 +117,22 @@ notebooks/
 <table>
   <tr>
     <td align="center">
-      <a href="http://saadpasta.github.io">
-        <img src="https://avatars2.githubusercontent.com/u/23307811?v=4" width="100px;" alt=""/>
+      <a href="https://github.com/your-github">
+        <img src="https://avatars.githubusercontent.com/u/你的ID?v=4" width="100px;" alt=""/>
         <br />
-        <sub><b>Saad Pasta</b></sub>
+        <sub><b>你的名字</b></sub>
       </a>
     </td>
-    ...
+    <td align="center">
+      <a href="https://github.com/friend-github">
+        <img src="https://avatars.githubusercontent.com/u/朋友ID?v=4" width="100px;" alt=""/>
+        <br />
+        <sub><b>朋友的名字</b></sub>
+      </a>
+    </td>
   </tr>
 </table>
+
 
 
 Paper Reference | 背景论文
