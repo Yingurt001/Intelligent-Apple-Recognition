@@ -47,7 +47,7 @@ This project implements a complete apple recognition pipeline using Python, Open
 git clone https://github.com/yourname/apple-segmentation
 cd apple-segmentation
 pip install -r requirements.txt
-
+```
 ---
 ##  Dataset Description | 数据集说明
 
