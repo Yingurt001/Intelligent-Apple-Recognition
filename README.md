@@ -1,3 +1,33 @@
+<div align="center">
+  <img src="Assets/Banner_1.jpg" width="100%" alt="Project Banner">
+</div>
+
+
+![Stars](https://img.shields.io/github/stars/你的用户名/你的项目名)
+![License](https://img.shields.io/github/license/你的用户名/你的项目名)
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+
+
+<details>
+<summary>📦 安装方式</summary>
+
+```bash
+git clone https://github.com/yourname/apple-segmentation
+cd apple-segmentation
+pip install -r requirements.txt
+
+## 🎬 Demo 示例
+![demo](assets/demo.gif)
+
+### 7. 插入社交媒体图标（仿照 Ultralytics）
+
+```html
+<div align="center">
+  <a href="https://github.com/yourname"><img src="github图标链接" width="3%"></a>
+  <a href="https://space.bilibili.com/xxxxxx"><img src="bilibili图标链接" width="3%"></a>
+</div>
+
+
 #  Intelligent Apple Recognition System | 苹果智能识别系统
 
 A computer vision and deep learning-based system for identifying, classifying, and evaluating apples in orchard images.  
