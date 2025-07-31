@@ -112,6 +112,21 @@ notebooks/
 ![3_detected](https://github.com/user-attachments/assets/df885f4d-6179-47b9-86fa-006c4b363ad8)
 
 
+### Project Maintainers 
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://saadpasta.github.io">
+        <img src="https://avatars2.githubusercontent.com/u/23307811?v=4" width="100px;" alt=""/>
+        <br />
+        <sub><b>Saad Pasta</b></sub>
+      </a>
+    </td>
+    ...
+  </tr>
+</table>
+
 
 Paper Reference | 背景论文
 
