@@ -1,3 +1,10 @@
+
+# 🍎 Intelligent Apple Recognition System | 苹果智能识别系统
+
+A computer vision and deep learning-based system for identifying, classifying, and evaluating apples in orchard images.  
+基于计算机视觉与深度学习的苹果图像识别系统，实现苹果计数、定位、成熟度评估与品质识别。
+
+
 <!-- Banner -->
 <div align="center">
   <img src="Assets/Banner_1.png" width="100%" alt="Project Banner">
@@ -12,11 +19,6 @@
 
 
 ---
-
-# 🍎 Intelligent Apple Recognition System | 苹果智能识别系统
-
-A computer vision and deep learning-based system for identifying, classifying, and evaluating apples in orchard images.  
-基于计算机视觉与深度学习的苹果图像识别系统，实现苹果计数、定位、成熟度评估与品质识别。
 
 ---
 
