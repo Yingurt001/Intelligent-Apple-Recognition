@@ -1,60 +1,63 @@
+<!-- Banner -->
 <div align="center">
   <img src="Assets/Banner_1.jpg" width="100%" alt="Project Banner">
 </div>
 
+<!-- Badges -->
+<div align="center">
+  <img src="https://img.shields.io/github/stars/你的用户名/你的项目名" alt="Stars">
+  <img src="https://img.shields.io/github/license/你的用户名/你的项目名" alt="License">
+  <img src="https://img.shields.io/badge/python-3.8+-blue" alt="Python Version">
+</div>
 
-![Stars](https://img.shields.io/github/stars/你的用户名/你的项目名)
-![License](https://img.shields.io/github/license/你的用户名/你的项目名)
-![Python](https://img.shields.io/badge/python-3.8+-blue)
+<!-- Social Media -->
+<div align="center">
+  <a href="https://github.com/yourname">
+    <img src="github图标链接" width="3%">
+  </a>
+  <a href="https://space.bilibili.com/xxxxxx">
+    <img src="bilibili图标链接" width="3%">
+  </a>
+</div>
 
+---
+
+# 🍎 Intelligent Apple Recognition System | 苹果智能识别系统
+
+A computer vision and deep learning-based system for identifying, classifying, and evaluating apples in orchard images.  
+基于计算机视觉与深度学习的苹果图像识别系统，实现苹果计数、定位、成熟度评估与品质识别。
+
+---
+
+## 🗂️ Project Overview | 项目概览
+
+This project implements a complete apple recognition pipeline using Python, OpenCV, and neural networks. It includes:
+
+- 🍏 Apple counting and localization using image processing  
+- 🔥 Heatmap visualization of apple density  
+- 🧠 Ripeness classification via CNN  
+- 📊 Weight estimation via Monte Carlo simulation  
+- 🏷️ Quality classification using pre-trained ResNet50  
+
+本项目包含以下核心模块：
+
+- 图像分割与苹果计数定位  
+- 热力图展示密度分布  
+- CNN 成熟度分类模型  
+- 蒙特卡洛法进行重量估计  
+- 基于 ResNet50 的品质识别  
+
+---
+
+## 📦 Installation | 安装方式
 
 <details>
-<summary>📦 安装方式
-
-</summary>
+<summary>点击展开安装说明</summary>
 
 ```bash
 git clone https://github.com/yourname/apple-segmentation
 cd apple-segmentation
 pip install -r requirements.txt
-```
-
-## 🎬 Demo 示例
-![demo](assets/demo.gif)
-
-### 7. 插入社交媒体图标（仿照 Ultralytics）
-
-```html
-<div align="center">
-  <a href="https://github.com/yourname"><img src="github图标链接" width="3%"></a>
-  <a href="https://space.bilibili.com/xxxxxx"><img src="bilibili图标链接" width="3%"></a>
-</div>
-
-
-#  Intelligent Apple Recognition System | 苹果智能识别系统
-
-A computer vision and deep learning-based system for identifying, classifying, and evaluating apples in orchard images.  
-基于计算机视觉与深度学习的苹果图像识别与分析系统，实现苹果的计数、定位、成熟度评估与品质识别。
-
----
-
-##  Project Overview | 项目概览
-
-This project implements a complete apple recognition pipeline using Python, OpenCV, and neural networks. It includes:
-
--  Apple counting and localization using image processing
--  Heatmap visualization of apple density across regions
--  Ripeness classification using a custom CNN
--  Weight estimation using Monte Carlo simulation
--  Quality classification using pre-trained ResNet50
-
-本项目使用 Python 与深度学习技术，完成苹果图像的全流程处理与分析，具体包括：
-
--  图像分割与苹果计数定位
--  热力图可视化展示苹果密度分布
--  使用 CNN 进行成熟度分类
--  运用蒙特卡洛方法估算苹果重量
--  利用 ResNet50 进行品质识别与分类
 
 ---
 ##  Dataset Description | 数据集说明
