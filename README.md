@@ -100,6 +100,26 @@ The project uses image datasets of apples and mixed fruits provided by the 2023 
 - 目标为使用训练好的模型识别其中的苹果图像
 ✅
 
+##  Implementation of Research Objectives | 研究目标实现过程
+### 🍏 Counting and locating apples
+In natural orchard environments, apples in images often appear partially occluded, overlapped, or affected by uneven lighting and cluttered backgrounds. These challenges make traditional image processing methods—such as simple color thresholding or edge detection—insufficiently robust for accurate fruit counting. To address this, we designed and implemented a reliable apple counting pipeline that integrates image preprocessing, morphological operations, segmentation algorithms, and curve fitting techniques to enhance precision and consistency.
+
+We began by converting raw images to grayscale and applying Gaussian filtering to smooth edges and suppress noise. Next, we performed adaptive thresholding to binarize the image based on local luminance, which ensures better segmentation under varying lighting conditions. To separate adjacent or touching apples, we applied morphological operations (erosion and dilation) and used the watershed algorithm based on distance transformation, which proved effective in isolating individual apple contours.
+
+For contour fitting, we employed non-uniform B-spline curves to handle irregular fruit boundaries and produce smooth, accurate approximations. We then calculated the minimum enclosing circle for each contour to estimate the size and position of potential apples. Only those contours that satisfied geometric constraints were counted as valid detections.
+
+Through this approach, we successfully identified a total of 1,657 apples across 200 test images. The resulting count distribution was visualized through histograms and laid a solid foundation for subsequent tasks such as spatial localization and mass estimation.
+
+
+在自然果园环境下，图像中的苹果常常存在遮挡、重叠、光照不均、背景杂乱等情况，导致传统基于颜色或边缘检测的图像处理方法在识别果实时表现不稳定。为了解决这一问题，我们设计并实现了一套稳健的图像计数流程，结合了图像预处理、形态学操作、分割算法与曲线拟合技术，提升了计数精度与稳定性。
+
+具体而言，首先对原始图像进行灰度化处理，并使用高斯滤波以平滑图像、去除噪声。随后，我们采用自适应阈值方法对图像进行局部二值化，使其更能适应不同光照区域下的图像特征。为了进一步消除伪边缘和分离粘连果实，我们引入了腐蚀与膨胀操作，以及基于距离变换的分水岭算法，从而有效分割出每个苹果的轮廓。
+
+在轮廓提取阶段，为克服苹果边缘复杂、局部不规则等问题，我们采用了非均匀 B 样条曲线对轮廓进行平滑拟合，使其更贴近果实真实形状。随后，我们计算每个轮廓的最小外接圆，借此估算每个苹果的位置与尺寸，并以此作为有效果实的统计依据。
+
+通过这一流程，我们在 200 张测试图像中共识别出 1657 个苹果，构建了完整的计数分布图，并为后续的空间定位、质量估计等任务打下了坚实的基础。
+
+
 ---
 ## 🧱 Project Structure | 项目结构
 
@@ -134,22 +154,6 @@ Previous Code/                      # Legacy implementation for reference
   <img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/3_comparison.jpg" width="80%">
 </p>
 
-## 🍏 Counting and locating apples
-In natural orchard environments, apples in images often appear partially occluded, overlapped, or affected by uneven lighting and cluttered backgrounds. These challenges make traditional image processing methods—such as simple color thresholding or edge detection—insufficiently robust for accurate fruit counting. To address this, we designed and implemented a reliable apple counting pipeline that integrates image preprocessing, morphological operations, segmentation algorithms, and curve fitting techniques to enhance precision and consistency.
-
-We began by converting raw images to grayscale and applying Gaussian filtering to smooth edges and suppress noise. Next, we performed adaptive thresholding to binarize the image based on local luminance, which ensures better segmentation under varying lighting conditions. To separate adjacent or touching apples, we applied morphological operations (erosion and dilation) and used the watershed algorithm based on distance transformation, which proved effective in isolating individual apple contours.
-
-For contour fitting, we employed non-uniform B-spline curves to handle irregular fruit boundaries and produce smooth, accurate approximations. We then calculated the minimum enclosing circle for each contour to estimate the size and position of potential apples. Only those contours that satisfied geometric constraints were counted as valid detections.
-
-Through this approach, we successfully identified a total of 1,657 apples across 200 test images. The resulting count distribution was visualized through histograms and laid a solid foundation for subsequent tasks such as spatial localization and mass estimation.
-
-在自然果园环境下，图像中的苹果常常存在遮挡、重叠、光照不均、背景杂乱等情况，导致传统基于颜色或边缘检测的图像处理方法在识别果实时表现不稳定。为了解决这一问题，我们设计并实现了一套稳健的图像计数流程，结合了图像预处理、形态学操作、分割算法与曲线拟合技术，提升了计数精度与稳定性。
-
-具体而言，首先对原始图像进行灰度化处理，并使用高斯滤波以平滑图像、去除噪声。随后，我们采用自适应阈值方法对图像进行局部二值化，使其更能适应不同光照区域下的图像特征。为了进一步消除伪边缘和分离粘连果实，我们引入了腐蚀与膨胀操作，以及基于距离变换的分水岭算法，从而有效分割出每个苹果的轮廓。
-
-在轮廓提取阶段，为克服苹果边缘复杂、局部不规则等问题，我们采用了非均匀 B 样条曲线对轮廓进行平滑拟合，使其更贴近果实真实形状。随后，我们计算每个轮廓的最小外接圆，借此估算每个苹果的位置与尺寸，并以此作为有效果实的统计依据。
-
-通过这一流程，我们在 200 张测试图像中共识别出 1657 个苹果，构建了完整的计数分布图，并为后续的空间定位、质量估计等任务打下了坚实的基础。
  
 ### 👨‍💻 Project Maintainers
 Thanks goes to these wonderful people:
