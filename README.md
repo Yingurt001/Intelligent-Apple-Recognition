@@ -24,26 +24,36 @@ A computer vision and deep learning-based system for identifying, classifying, a
 
 ## 🗂️ Project Overview | 项目概览
 
-This project implements a complete apple recognition pipeline using Python, OpenCV, and neural networks. It includes:
+This project presents a full-stack image recognition system for apples, combining classical computer vision techniques and deep neural networks. The pipeline is designed to support fruit-picking robots by enabling accurate, automated analysis of apples in orchard images.
 
-- 🍏 Apple counting and localization using image processing  
-- 🔥 Heatmap visualization of apple density  
-- 🧠 Ripeness classification via CNN  
-- 📊 Weight estimation via Monte Carlo simulation  
-- 🏷️ Quality classification using pre-trained ResNet50  
 
-本项目包含以下核心模块：
+We focus on five core tasks:
 
-- 图像分割与苹果计数定位  
-- 热力图展示密度分布  
-- CNN 成熟度分类模型  
-- 蒙特卡洛法进行重量估计  
-- 基于 ResNet50 的品质识别  
+- 🍏 Counting and locating apples using OpenCV and adaptive B-spline contour fitting 
+- 🔥 Analyzing spatial distribution of apples with coordinate mapping and heatmaps
+- 🧠 Classifying ripeness via a custom-built Convolutional Neural Network (CNN)
+- 📊 Estimating mass based on 2D contour area and Monte Carlo simulation 
+- 🏷️ Classifying apples among other fruits using a ResNet-50 model with transfer learning
+
+本项目构建了一套完整的苹果图像识别与分析流程，结合了传统图像处理与深度学习算法，旨在辅助采摘机器人实现苹果的自动检测与分类识别。
+
+
+我们的研究任务包括：
+
+利用 OpenCV 和自适应 B 样条轮廓提取实现苹果的计数与定位
+
+建立坐标系统并绘制热力图以分析苹果的空间密度分布
+
+构建 CNN 模型，对苹果成熟度进行自动判别
+
+基于图像面积与蒙特卡洛方法估算苹果质量
+
+基于 ResNet-50 的迁移学习模型实现多种果实分类识别
 
 ---
 
 
-## 📦 Installation | 安装方式
+## 📦 Installation | 安装方式     （zyz：没看懂这一部分是什么）
 
 ```bash
 git clone https://github.com/Yingurt001/Intelligent-Apple-Recognition.git
@@ -124,6 +134,10 @@ Previous Code/                      # Legacy implementation for reference
   <img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/3_comparison.jpg" width="80%">
 </p>
 
+### 具体过程（想到什么先写什么的草稿）
+ 图像预处理：光照校正、高斯滤波去噪、灰度化、分水岭分割、腐蚀与膨胀
+
+ 
 ### 👨‍💻 Project Maintainers
 Thanks goes to these wonderful people:
 <table>
