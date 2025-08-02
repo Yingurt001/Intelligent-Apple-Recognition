@@ -124,23 +124,55 @@ Through this approach, we successfully identified a total of 1,657 apples across
 ## 🧱 Project Structure | 项目结构
 
 ```bash
-notebooks/
-├── 1_count_location.ipynb          # Apple Detection & Counting | 图像处理与苹果定位
-├── 2_location_scatter_heatmap.ipynb # Heatmap Visualization | 热力图与坐标可视化
-├── 3_maturity_cnn.ipynb            # Maturity Classification (CNN) | 成熟度分类模型
-├── 4_mass_montecarlo.ipynb         # Weight Estimation (Monte Carlo) | 重量估计
-├── 5_resnet50_fruit_classification.ipynb # Quality Classification (ResNet50) | 品质识别
-├── README_Q1.md                    # Q1 Documentation | Q1说明文档
-
-data/
-├── Attachment 1/                   # Apple orchard images (200 files)
-├── Attachment 2/                   # Labeled fruit dataset (20,705 files)
-└── Attachment 3/                   # Unlabeled fruit dataset (20,705 files)
-
-results/
-└── Q1_results/                     # Q1 processing outputs
-
-Previous Code/                      # Legacy implementation for reference
+├── Apple CNN/                           # CNN-based fruit classification (EffNetB0)
+│   ├── fruit_classifier_effnetb0.h5     # Trained classification model
+│   ├── Test.ipynb                       # Inference and visualization notebook
+│   ├── Test/                            # Test images
+│   └── Prediction_Results/             # Output predictions with labels
+├── Assets/                              # Project illustration images
+│   ├── Banner_1.png
+│   ├── 3_comparison.jpg
+│   └── ...
+├── Code Attachment/                     # Code files and references for Q3/Q4
+│   ├── q3_process.ipynb
+│   ├── apple_counts.xlsx
+│   ├── 标记坐标.ipynb
+│   ├── 蒙特卡洛.xlsx
+│   └── ...
+├── Data/                                # Official APMCM datasets
+│   ├── Attachment 1/                    # Orchard apple images
+│   ├── Attachment 2/                    # Labeled fruit dataset (5 categories)
+│   ├── Attachment 3/                    # Unlabeled fruit dataset
+│   └── Archive.zip
+├── Demo/                                # One-stop notebook demo and attachments
+│   ├── Code_ALL.ipynb
+│   ├── Attachment_1/
+│   ├── Attachment_2/
+│   └── Q2 Results/
+├── notebooks/                           # Q1 main analysis pipeline
+│   ├── 1_resnet50_fruit_classification.ipynb  # Fruit type classification (ResNet50)
+│   ├── 2_count_location.ipynb                  # Apple counting & localization
+│   ├── 3_location_scatter_heatmap.ipynb        # Spatial distribution analysis
+│   ├── 4_maturity_cnn.ipynb                    # Maturity classification (CNN)
+│   ├── 5_mass_montecarlo.ipynb                 # Mass estimation via simulation
+│   ├── README_Q1.md
+│   └── results/
+├── Results/                             # Final results by task
+│   ├── Q1_results/
+│   ├── Q2 Results/
+│   ├── Q3 Results/
+│   └── Q4 Results/
+├── Results_detail/                      # Augmented versions of prediction results
+│   ├── Attachment_2_RedBoost/
+│   ├── Attachment_3_Gamma/
+│   ├── Final_output_Sharpen/
+│   ├── LAB.ipynb
+│   ├── apple_counts_summary_v2_v2.csv
+│   └── ...
+├── requirements.txt                     # Python dependencies
+├── environment.yml                      # Conda environment config
+├── LICENSE
+├── README.md
 
 ```
 <h3>Result</h3>
@@ -153,6 +185,24 @@ Previous Code/                      # Legacy implementation for reference
 <p align="center">
   <img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/3_comparison.jpg" width="80%">
 </p>
+
+
+### 🍎🔍 Visual Classification Results | 分类预测可视化展示
+
+We present visual examples of fruit classification using our trained model. Each prediction image shows the top-1 class label and confidence score.
+
+以下展示模型对不同果实（苹果、梨、番茄）的分类预测结果，可视化模型识别效果与准确性。
+
+<p align="center">
+  <img src="Assets/Green_apple.jpg" width="30%" title="Green Apple">
+  <img src="Assets/Pear.jpg" width="30%" title="Pear">
+  <img src="Assets/Tomato.jpg" width="30%" title="Tomato">
+</p>
+
+<p align="center">
+  <em>Figure: Sample predictions from the classification model.</em>
+</p>
+
 
  
 ### 👨‍💻 Project Maintainers
