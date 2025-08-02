@@ -186,8 +186,9 @@ Through this approach, we successfully identified a total of 1,657 apples across
   <img src="https://raw.githubusercontent.com/Yingurt001/Intelligent-Apple-Recognition/main/Assets/3_comparison.jpg" width="80%">
 </p>
 
+---
 
-### 🍎🔍 Visual Classification Results | 分类预测可视化展示
+### Visual Classification Results | 分类预测可视化展示
 
 We present visual examples of fruit classification using our trained model. Each prediction image shows the top-1 class label and confidence score.
 
