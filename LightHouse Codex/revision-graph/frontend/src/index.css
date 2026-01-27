@@ -1,0 +1,151 @@
+@import '@fontsource/space-grotesk';
+@import '@fontsource/crimson-text';
+@import "tailwindcss";
+
+/* 自定义主题 - Tailwind v4 方式 */
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e40af;
+  --color-primary-900: #1e3a8a;
+
+  --color-weak: #ef4444;
+  --color-medium: #f59e0b;
+  --color-strong: #10b981;
+
+  /* Retro-futuristic theme colors */
+  --color-neon-green: #00ff88;
+  --color-neon-pink: #ff0080;
+  --color-dark-bg: #0a0a0a;
+  --color-dark-surface: #1a1a1a;
+  --color-dark-border: #333333;
+  --color-accent-purple: #8b5cf6;
+  --color-accent-cyan: #06b6d4;
+
+  /* Animation variables */
+  --animation-duration-fast: 150ms;
+  --animation-duration-normal: 300ms;
+  --animation-duration-slow: 500ms;
+  --animation-easing: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 自定义基础样式 */
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+    font-family: 'Crimson Text', serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+/* 自定义组件样式 */
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-200 p-4;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-weak {
+    @apply bg-red-100 text-red-800;
+  }
+
+  .badge-medium {
+    @apply bg-yellow-100 text-yellow-800;
+  }
+
+  .badge-strong {
+    @apply bg-green-100 text-green-800;
+  }
+
+  /* 侧边栏样式 */
+  .sidebar {
+    @apply w-64 h-screen bg-white border-r border-gray-200 fixed left-0 top-0;
+  }
+
+  .sidebar-item {
+    @apply flex items-center gap-3 px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-lg mx-2 transition-colors;
+  }
+
+  .sidebar-item.active {
+    @apply bg-primary-50 text-primary-700;
+  }
+}
+
+/* 动画和过渡类 */
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn var(--animation-duration-normal) var(--animation-easing) forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp var(--animation-duration-normal) var(--animation-easing) forwards;
+  }
+
+  .animate-scale-in {
+    animation: scaleIn var(--animation-duration-fast) var(--animation-easing) forwards;
+  }
+
+  .hover-lift {
+    transition: transform var(--animation-duration-fast) var(--animation-easing);
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-2px);
+  }
+}
+
+/* 关键帧动画 */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
